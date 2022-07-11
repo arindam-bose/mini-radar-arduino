@@ -1,8 +1,6 @@
 # Mini Radar in Arduino using Python
 An inexpensive 360 degree mini radar with live dashboard using Arduino and Python
 
-Based on [this online article](https://towardsdatascience.com/build-a-diy-mini-radar-using-arduino-python-and-streamlit-c333006681d7).
-
 # Components
 1. [Arduino Uno](https://store-usa.arduino.cc/collections/boards/products/arduino-uno-rev3)
 2. [Micro Servo SG90](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
@@ -35,3 +33,6 @@ pip install streamlit==1.10.0 pyserial==3.5 plotly==5.9.0
 streamlit run main.py
 ```
 <img src="img/board.jpeg" alt="drawing" style="height:300px;"/> <img src="img/screenshot.png" alt="drawing" style="height:300px;"/>
+
+#### References
+1. [Arduino Radar](https://towardsdatascience.com/build-a-diy-mini-radar-using-arduino-python-and-streamlit-c333006681d7).
